@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo">
+                    <a href="index.html"><img src="Screenshot 2023-12-21 144728.png" alt="logo" width="120px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li>
+                            <a class="active" href=" index.html ">HOME</a></li>
+                        <li><a href="products.html ">PRODUCTS</a></li>
+                        <li> <a href="about.html ">ABOUT</a></li>
+                        <li> <a href="contact.html ">CONTACT</a></li>
+                        <!-- <li><a href="account.html ">ACCOUNT</a></li> -->
+                    </ul>
+                </nav>
+                <div id="countno">
+                    <a href="cart.html"><img src="cart_891468.png " alt="cart" width="30px" height="30px"></a>
+                    <p id="count"><sup>0</sup></p>
+                </div>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </section>
+
+    <section id="hero">
+        <div class="banner-card ">
+            <img src="young-woman-smiles.png " alt="img ">
+            <div class="banner-text ">
+                <p>MEGA <br>BLOCKBUSTER<br> DEALS </p>
+                <br>
+                <a href="products.html">&nbsp;&nbsp;SHOP NOW &#8594; &nbsp;</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- feature -->
+
+    <section id="feature" class="section-p1">
+
+        <div class="fe-box">
+
+            <img src="pics/fast delivery.jpg">
+            <h6>Fast Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pics/save money.jpg">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pics/quality.jpg">
+            <h6>Premium Quility</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pics/discount.jpg">
+            <h6>High Discount</h6>
+        </div>
+        <div class="fe-box">
+            <img src="pics/happy sell.jpg">
+            <h6>Happy Sell</h6>
+        </div>
+    </section>
+
+    <!-- feature products -->
+
+    <section id="product1" class="section-p1">
+
+        <h2>Featured Product</h2>
+        <div class="pro-container">
+            <!-- product 1 -->
+
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="productimages/product 1.webp" alt="">
+                <div class="des">
+                    <h5>CORAL VISCOSE STRAIGHT PRINTED 2 PIECE SET</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>₹ 1,249.00 <span>₹2,199.00</span></h4>
+                </div>
+                <a href="" class="cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <!-- product 2 -->
+
+            <div class="pro" onclick="window.location.href='sproduct2.html'">
+                <img src="productimages/product 2.webp" alt="">
+                <div class="des">
+                    <h5>PINK & PURPLE POLY COTTON STRAIGHT EMBROIDERY KURTA SLIM PANT SUIT SET</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹ 2,199.00 <span>₹3,999.00</span></h4>
+                </div>
+                <a href="" class="cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <!-- product 3 -->
+
+            <div class="pro" onclick="window.location.href='sproduct3.html'">
+                <img src="productimages/product 3.webp" alt="">
+                <div class="des">
+                    <h5>KHAKI COTTON STRAIGHT KURTA PANT SUIT SET</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                    <h4>₹ 1,549.00 <span>₹2,999.00</span></h4>
+                </div>
+                <a href="" class="cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <!-- product 4 -->
+
+            <div class="pro" onclick="window.location.href='sproduct4.html'">
+                <img src="productimages/product 4.webp" alt="">
+                <div class="des">
+                    <h5>TURQUOISE COTTON BLEND STRAIGHT KURTA PANT SUIT SET</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                    <h4>₹ 3,449.00 <span>₹5,799.00</span></h4>
+                </div>
+                <a href="" class="cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <!-- product 5 -->
+
+            <div class="pro" onclick="window.location.href='sproduct5.html'">
+                <img src="productimages/product 5.webp " alt=" ">
+                <div class="des ">
+                    <h5>MAROON & BLACK POLY VISCOSE KURTA PANT SUIT</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+
+                    </div>
+                    <h4>₹ 2,799.00 <span>₹4,399.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 6 -->
+
+            <div class="pro" onclick="window.location.href='sproduct6.html'">
+                <img src="productimages/product 6.webp " alt=" ">
+                <div class="des ">
+                    <h5>BLACK COTTON STRAIGHT KURTA PANT SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+
+
+                    </div>
+                    <h4>₹ 1,999.00 <span>₹2,839.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 7 -->
+
+            <div class="pro" onclick="window.location.href='sproduct7.html'">
+                <img src="productimages/product 7.webp " alt=" ">
+                <div class="des ">
+                    <h5>RED COTTON ANARKALI KURTA CHURIDAR SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                        <i class="fa-regular fa-star "></i>
+
+                    </div>
+                    <h4>₹ 3,499.00 <span>₹5,199.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 8 -->
+
+            <div class="pro" onclick="window.location.href='sproduct8.html'">
+                <img src="productimages/product 8.jpg " alt=" ">
+                <div class="des ">
+                    <h5>INDIGO COTTON ANARKALI KURTA CHURIDAR SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>₹ 2,849.00 <span>₹3,899.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- banner video -->
+    <div class="banner1" onclick="window.location.href='products.html'">
+        <div id="video-set">
+            <video src="pics/video5.mp4" autoplay muted loop></video>
+        </div>
+        <section id="banner" class="section-m1">
+            <h4>Online Exclusive</h4>
+            <h2>Up to
+                <u>40% Off</u>- All Ladies Suit Set
+            </h2>
+            <button>Explore <span style="color: #ffbd27;"> More</span></button>
+        </section>
+    </div>
+
+    <section id="product1" class="section-p1">
+
+        <h2>New Arrivals</h2>
+        <div class="pro-container">
+
+            <!-- product 9 -->
+
+            <div class="pro" onclick="window.location.href='sproduct9.html'">
+
+                <img src="productimages/product9.webp " alt=" ">
+                <div class="des ">
+                    <h5>PINK COTTON STRAIGHT KURTA PALAZZO SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+                    </div>
+                    <h4>₹ 1,849.00 <span>₹2,999.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 10 -->
+
+            <div class="pro" onclick="window.location.href='sproduct10.html'">
+
+                <img src="productimages/product10.webp " alt=" ">
+                <div class="des ">
+                    <h5>ONION PINK COTTON ANARKALI KURTA CHURIDAR SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                    </div>
+                    <h4>₹ 4,199.00 <span>₹6,100.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 11 -->
+
+            <div class="pro" onclick="window.location.href='sproduct11.html'">
+                <img src="productimages/product11.jpg " alt=" ">
+                <div class="des ">
+                    <h5>INDIGO COTTON STRAIGHT SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+
+                    </div>
+                    <h4>₹ 3,549.00 <span>₹4,999.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 12 -->
+
+            <div class="pro" onclick="window.location.href='sproduct12.html'">
+                <img src="productimages/product12.webp " alt=" ">
+                <div class="des ">
+                    <h5>BLACK RAYON STRAIGHT KURTA PANT SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+
+                    </div>
+                    <h4>₹ 2,899.00 <span>₹4,350.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 13 -->
+
+            <div class="pro" onclick="window.location.href='sproduct13.html'">
+                <img src="productimages/product13.webp " alt=" ">
+                <div class="des ">
+                    <h5>MAROON & BLACK POLY VISCOSE KURTA PANT SUIT</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+                    </div>
+                    <h4>₹ 2,799.00 <span>₹4,099.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 14 -->
+
+            <div class="pro" onclick="window.location.href='sproduct14.html'">
+                <img src="productimages/product14.webp " alt=" ">
+                <div class="des ">
+                    <h5>MUSTARD LIVA KALIDAR KURTA PANT SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+
+                    </div>
+                    <h4>₹ 3,799.00 <span>₹4,999.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 15 -->
+
+            <div class="pro" onclick="window.location.href='sproduct15.html'">
+                <img src="productimages/product15.webp " alt=" ">
+                <div class="des ">
+                    <h5>GREEN & RED POLY VISCOSE STRAIGHT KURTA SLIM PANT SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+
+                        <i class="fa-regular fa-star "></i>
+
+                    </div>
+                    <h4>₹ 3,149.00 <span>₹4,359.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+            <!-- product 16 -->
+
+            <div class="pro" onclick="window.location.href='sproduct16.html'">
+                <img src="productimages/product16.webp " alt=" ">
+                <div class="des ">
+                    <h5>RED PRINTED COTTON KALIDAR KURTA LEGGING SUIT SET</h5>
+                    <div class="star ">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fa-regular fa-star "></i>
+                    </div>
+                    <h4>₹ 5,149.00 <span>₹7,499.00</span></h4>
+                </div>
+                <a href=" " class="cart "><i class="fa fa-shopping-cart "></i></a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- banner kurtis -->
+    <section id="kur-banner" class="section-p1" onclick="window.location.href='products.html'">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Kurtis</h2>
+            <p>Starting From
+                <br>
+                <i class="fa fa-inr" aria-hidden="true"></i><span> 399</span></p>
+            <button>Shop Now</button>
+        </div>
+        <div class="banner-box banner-box2" onclick="window.location.href='products.html'">
+            <h4>New Collection</h4>
+            <h2>Suit Sets</h2>
+            <p>Up To
+                <br>
+                <span> 30% TO 40% Off</span></p>
+            <button>Shop Now</button>
+        </div>
+
+    </section>
+
+
+    <!-- banner 3 -->
+
+    <section id="banner3">
+
+        <div class="banner-box" onclick="window.location.href='products.html'">
+            <h2>Wedding Collection</h2>
+            <h3>Big % Discount In Winter Collection</h3>
+        </div>
+        <div class="banner-box banner-box2" onclick="window.location.href='products.html'">
+            <h2>WinterWear Collection</h2>
+            <h3>Grab The Great Deals In This Winter</h3>
+        </div>
+        <div class="banner-box banner-box3" onclick="window.location.href='products.html'">
+            <h2>Spring Summer</h2>
+            <h3>Buy 2 And Get More Discount</h3>
+        </div>
+
+    </section>
+
+    <!-- slider -->
+
+    <section class="trends">
+        <div class="product-heading">
+            <h2>Top <span>Trending</span></h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" onclick="window.location.href='sproduct20.html'">
+                    <img src="productimages/product 20.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct14.html'">
+                    <img src="productimages/product14.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct8.html'">
+                    <img src="productimages/product 8.jpg" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct5.html'">
+                    <img src="productimages/product 5.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct6.html'">
+                    <img src="productimages/product 6.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct1.html'">
+                    <img src="productimages/product 1.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct4.html'">
+                    <img src="productimages/product 4.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct3.html'">
+                    <img src="productimages/product 3.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct18.html'">
+                    <img src="productimages/product18.webp" />
+                </div>
+                <div class="swiper-slide" onclick="window.location.href='sproduct7.html'">
+                    <img src="productimages/product 7.webp" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- google map -->
+
+    <section id="map">
+        <h2>Our Shop Address</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433.27439335357514!2d76.96134496074879!3d29.685121405664592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e7125613fd847%3A0xd67f3c821f27d9f6!2sASHA%20CLOTH%20HOUSE!5e0!3m2!1sen!2sin!4v1704202187765!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+
+    </section>
+
+    <!-- newsletter -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+
+        <div class="newstext">
+            <h4>Sign Up For News Letters</h4>
+            <p>Get E-Mail Updates About Our Latest Shop And <span> Special Offers</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your Email Address">
+            <button class="normal" onclick="window.location.href='index.html'">Sign Up</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="A.png" width="50%">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Kaithal Road, Street 9, Karnal</p>
+            <p><strong>Phone:</strong> (+91) 9253298718</p>
+            <p><strong>Hours:</strong> 09:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sgn in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col payment">
+            <div class="row">
+                <h4>Payment</h4>
+                <p>Secured Payment Gateways</p>
+                <img src="payment.png" width="180px">
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © 2024, Asha Clothing - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 1200,
+                modifier: 1,
+                slideShadows: false,
+
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+
+        });
+    </script>
+</body>
+
+</html>
